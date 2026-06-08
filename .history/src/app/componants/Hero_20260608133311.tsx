@@ -134,24 +134,24 @@ const Hero = () => {
           </div>*/}
 
           {/* Feature Item 2 */}
-          {/* <div className="space-y-2 group cursor-pointer">
+          <div className="space-y-2 group cursor-pointer">
             <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200">
               Identity & Access
             </h3>
             <p className="text-gray-400 text-sm font-light leading-relaxed">
               Zero Trust implementation with fine-grained corporate access management.
             </p>
-          </div> */}
+          </div>
 
           {/* Feature Item 3 */}
-          {/* <div className="space-y-2 group cursor-pointer">
+          <div className="space-y-2 group cursor-pointer">
             <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200">
               Firewall Security
             </h3>
             <p className="text-gray-400 text-sm font-light leading-relaxed">
               Next-generation network protection layers minimizing perimeter risks.
             </p>
-          </div> */}
+          </div>
 
         </div>
 

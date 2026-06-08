@@ -21,7 +21,7 @@ const Hero = () => {
   const [isTransitioning, setIsTransitioning] = useState(false);
   
   // Keep track of the interval ID across renders so we can clear it safely
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   // Function to handle moving to a slide smoothly
   const handleSlideChange = (nextIndex: number) => {
@@ -66,8 +66,7 @@ const Hero = () => {
           src="/videos/hero-background2.mp4" 
         /> 
         {/* Solid/Gradient Overlay to dim the video background */}
-        <div className="absolute inset-0 " />
-        {/* bg-gradient-to-r from-slate-950 via-slate-900/80 to-transparent */}
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-transparent" />
       </div>
 
       {/* 2. MAIN CONTENT WRAPPER */}
@@ -95,11 +94,11 @@ const Hero = () => {
           </div>
           
           {/* Large Pill CTA Button */}
-          {/* <div className="w-full max-w-md pt-4">
+          <div className="w-full max-w-md pt-4">
             <button className="w-full bg-white text-[#060b13] py-4 rounded-full font-semibold text-base hover:bg-gray-100 transition-all duration-300 shadow-[0_10px_25px_rgba(0,0,0,0.4)] hover:scale-[1.01]">
                Get Started
             </button>
-          </div> */}
+          </div>
 
           {/* Carousel Slide Indicators */}
           <div className="flex space-x-2 pt-2">
@@ -124,34 +123,34 @@ const Hero = () => {
         <div className="border-t border-white/10 pt-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-left w-full mt-12 md:mt-0">
           
           {/* Feature Item 1 */}
-          {/*<div className="space-y-2 group cursor-pointer">
+          <div className="space-y-2 group cursor-pointer">
             <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200 flex items-center gap-2">
               SOC Monitoring
             </h3>
             <p className="text-gray-400 text-sm font-light leading-relaxed">
               24/7 continuous threat visibility and rapid incident containment solutions.
             </p>
-          </div>*/}
+          </div>
 
           {/* Feature Item 2 */}
-          {/* <div className="space-y-2 group cursor-pointer">
+          <div className="space-y-2 group cursor-pointer">
             <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200">
               Identity & Access
             </h3>
             <p className="text-gray-400 text-sm font-light leading-relaxed">
               Zero Trust implementation with fine-grained corporate access management.
             </p>
-          </div> */}
+          </div>
 
           {/* Feature Item 3 */}
-          {/* <div className="space-y-2 group cursor-pointer">
+          <div className="space-y-2 group cursor-pointer">
             <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200">
               Firewall Security
             </h3>
             <p className="text-gray-400 text-sm font-light leading-relaxed">
               Next-generation network protection layers minimizing perimeter risks.
             </p>
-          </div> */}
+          </div>
 
         </div>
 
