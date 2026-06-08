@@ -1,1 +1,0 @@
-<h1>page binary global</h1>
