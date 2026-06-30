@@ -1,8 +1,14 @@
+import Solutions from './Solutions/Solutions'
+import Whyus from './why-us/Whyus'
 
 const page = () => {
   return (
-    <div className="h-400 bg-gray-200">
-      home page
+    <div>
+      <div className="mt-[-100px] ">
+        <Solutions />
+        <Whyus />
+      </div>
+
     </div>
   )
 }

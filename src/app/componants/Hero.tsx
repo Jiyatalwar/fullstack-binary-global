@@ -34,7 +34,7 @@ const Hero = () => {
 
   // Helper to clear running timers and start a fresh 5-second automatic countdown
   const startAutoPlay = () => {
-    if (timerRef.current) clearInterval(timerRef.current);
+    if (timerRef.current) clearInterval(timerRef.current);3
     
     timerRef.current = setInterval(() => {
       setIsTransitioning(true);
@@ -66,12 +66,12 @@ const Hero = () => {
           src="/videos/hero-background2.mp4" 
         /> 
         {/* Solid/Gradient Overlay to dim the video background */}
-        <div className="absolute inset-0 " />
+        <div className="absolute inset-0" />
         {/* bg-gradient-to-r from-slate-950 via-slate-900/80 to-transparent */}
       </div>
 
       {/* 2. MAIN CONTENT WRAPPER */}
-      <div className="relative z-10 max-w-6xl mx-auto min-h-screen flex flex-col justify-between px-6 md:px-12 pt-40 pb-16">
+      <div className="relative z-10 max-w-6xl mx-auto min-h-screen flex flex-col justify-between px-6 md:px-12 pt-40">
         
         {/* 3. CENTERED CAROUSEL TEXT */}
         <div className="flex-1 flex flex-col items-center justify-center text-center max-w-3xl mx-auto space-y-8 my-auto">
@@ -119,42 +119,6 @@ const Hero = () => {
           </div>
 
         </div>
-
-        {/* 4. BOTTOM THREE-COLUMN FEATURE BAR */}
-        <div className="border-t border-white/10 pt-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-left w-full mt-12 md:mt-0">
-          
-          {/* Feature Item 1 */}
-          {/*<div className="space-y-2 group cursor-pointer">
-            <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200 flex items-center gap-2">
-              SOC Monitoring
-            </h3>
-            <p className="text-gray-400 text-sm font-light leading-relaxed">
-              24/7 continuous threat visibility and rapid incident containment solutions.
-            </p>
-          </div>*/}
-
-          {/* Feature Item 2 */}
-          {/* <div className="space-y-2 group cursor-pointer">
-            <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200">
-              Identity & Access
-            </h3>
-            <p className="text-gray-400 text-sm font-light leading-relaxed">
-              Zero Trust implementation with fine-grained corporate access management.
-            </p>
-          </div> */}
-
-          {/* Feature Item 3 */}
-          {/* <div className="space-y-2 group cursor-pointer">
-            <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-200">
-              Firewall Security
-            </h3>
-            <p className="text-gray-400 text-sm font-light leading-relaxed">
-              Next-generation network protection layers minimizing perimeter risks.
-            </p>
-          </div> */}
-
-        </div>
-
       </div>
     </section>
   );

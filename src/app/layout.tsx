@@ -34,7 +34,7 @@ export default function RootLayout({
         <Navbar />
         
         {/* Next.js automatically injects page.tsx content inside this <main> tag */}
-        <main className="flex-1 pt-32">
+        <main className="flex-1">
           {children}
         </main>
         

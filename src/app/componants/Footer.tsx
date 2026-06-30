@@ -116,7 +116,7 @@ const Footer = () => {
             
             {/* Solutions */}
             <div>
-              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#e33e2b] inline-block">
+              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#12afd6] inline-block">
                 Solutions
               </h2>
               <ul className="space-y-3">
@@ -128,7 +128,7 @@ const Footer = () => {
 
             {/* Company */}
             <div>
-              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#e33e2b] inline-block">
+              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#12afd6] inline-block">
                 Company
               </h2>
               <ul className="space-y-3">
@@ -140,7 +140,7 @@ const Footer = () => {
 
             {/* Services */}
             <div>
-              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#e33e2b] inline-block">
+              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#12afd6] inline-block">
                 Services
               </h2>
               <ul className="space-y-3">
@@ -152,7 +152,7 @@ const Footer = () => {
 
             {/* Industries */}
             <div>
-              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#e33e2b] inline-block">
+              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#12afd6] inline-block">
                 Industries
               </h2>
               <ul className="space-y-3">
@@ -164,7 +164,7 @@ const Footer = () => {
 
             {/* Resources */}
             <div>
-              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#e33e2b] inline-block">
+              <h2 className="text-[15px] font-semibold text-gray-600 mb-5 pb-1 border-b border-[#12afd6] inline-block">
                 Resources
               </h2>
               <ul className="space-y-3">
@@ -175,7 +175,7 @@ const Footer = () => {
             </div>
 
           </div>
-        </div>
+        </div>v
 
         {/* Bottom Bar: Copyright and Legal links */}
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[13px] text-gray-400">
