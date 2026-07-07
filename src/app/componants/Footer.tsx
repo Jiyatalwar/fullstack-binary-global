@@ -175,7 +175,7 @@ const Footer = () => {
             </div>
 
           </div>
-        </div>v
+        </div>
 
         {/* Bottom Bar: Copyright and Legal links */}
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[13px] text-gray-400">
