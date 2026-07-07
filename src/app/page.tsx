@@ -1,12 +1,16 @@
+import Contactus from './CTA/Contactus'
+import Customer from './Customer/Customer'
 import Solutions from './Solutions/Solutions'
-import Whyus from './why-us/Whyus'
+import WhyUs from './why-us/Whyus'
 
 const page = () => {
   return (
     <div>
-      <div className="mt-[-100px] ">
-        <Solutions />
-        <Whyus />
+<div className="mt-[-100px] ">
+         <Solutions />
+         <WhyUs />
+        <Customer />
+        <Contactus/>
       </div>
 
     </div>
