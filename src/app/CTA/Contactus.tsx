@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contactus = () => {
   return (
-    <section className="relative overflow-hidden bg-transparent px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-24 xl:px-12 mt-[-250px]">
+    <section className="relative overflow-hidden bg-transparent px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-24 xl:px-12 mt-[-300px]">
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-between gap-10 lg:flex-row lg:gap-12">
         {/* Left Content Column */}
         <div className="w-full max-w-2xl space-y-6 text-center lg:mx-0 lg:max-w-[550px] lg:text-left">
