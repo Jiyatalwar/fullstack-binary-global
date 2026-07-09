@@ -29,7 +29,7 @@ const Customer = () => {
   ];
 
   return (
-    <div className="bg-white min-h-screen py-24 text-[#1a1a1a] font-sans">
+    <div className="bg-white min-h-screen py-10 text-[#1a1a1a] font-sans  ">
       
       {/* MAIN CONTAINER: Handles max layout bounds and professional 70px side padding */}
       <div className="max-w-[1440px] mx-auto px-6 sm:px-12 md:px-[70px]">
@@ -37,18 +37,18 @@ const Customer = () => {
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
           {/* Left Side: Grouped Title & Subtitle */}
-          <div className="space-y-3 max-w-2xl">
+          <div className="space-y-1 max-w-2xl">
             <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-[#1a1a1a]">
               Customer Success Stories
             </h2>
-            <p className="text-base md:text-lg text-gray-600 font-normal leading-relaxed">
+            <p className="text-base  md:text-lg text-gray-600 font-normal leading-relaxed">
               Our client success is our greatest achievement — read their stories here!
             </p>
           </div>
         </div>
 
         {/* Insights Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-10 w-full">
+        <div className=" py-2 grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-10 w-full">
           {insights.map((item) => (
             <div key={item.id} className="flex flex-col group">
               {item.tag && (
