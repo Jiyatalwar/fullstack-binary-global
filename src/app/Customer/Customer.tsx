@@ -31,7 +31,7 @@ const Customer = () => {
   return (
     <div className="bg-white min-h-screen py-10 text-[#1a1a1a] font-sans  ">
       
-      {/* MAIN CONTAINER: Handles max layout bounds and professional 70px side padding */}
+      {/* Handles max layout bounds and professional 70px side padding */}
       <div className="max-w-[1440px] mx-auto px-6 sm:px-12 md:px-[70px]">
         
         {/* Header Section */}
@@ -47,7 +47,7 @@ const Customer = () => {
           </div>
         </div>
 
-        {/* Insights Grid */}
+        {/* grid card */}
         <div className=" py-2 grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-10 w-full">
           {insights.map((item) => (
             <div key={item.id} className="flex flex-col group">
@@ -57,7 +57,7 @@ const Customer = () => {
                 </span>
               )}
 
-              {/* Feature Image Wrapper */}
+              {/* Feature img section */}
               <div className="overflow-hidden rounded-2xl mb-5 aspect-[4/3] bg-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.01)]">
                 <img 
                   src={item.image} 
@@ -66,7 +66,7 @@ const Customer = () => {
                 />
               </div>
 
-              {/* Content Block */}
+              {/* Content Block  text */}
               <h3 className="text-xl font-semibold leading-snug mb-3 hover:text-indigo-600 cursor-pointer transition-colors duration-200 tracking-tight line-clamp-2">
                 {item.title}
               </h3>
