@@ -123,15 +123,7 @@ const Solutions = () => {
           </div>       
         </div>
 
-        {/* ==========================================
-            2. NAVIGATION BAR (Left-aligned/centered tracking)
-           ========================================== */}
-       {/* ==========================================
-            2. RESPONSIVE NAVIGATION BAR (All Screen Sizes)
-           ========================================== */}
-       {/* ==========================================k
-            2. RESPONSIVE NAVIGATION BAR (No Scroll Layout)
-           ========================================== */}
+       
         <div className="w-full mb-12 border-b border-slate-200/60 pb-4">
           {/* Using flex-wrap and justify-center to let items naturally drop to the next line on small screens */}
           <div className="flex flex-wrap justify-center items-center gap-x-5 sm:gap-x-8 gap-y-3 md:gap-y-4">
